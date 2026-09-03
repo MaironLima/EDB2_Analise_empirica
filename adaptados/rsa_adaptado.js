@@ -58,7 +58,7 @@ console.log("Gerando par de chaves RSA de", keySize, "bits...");
 const { publicKey, privateKey } = generateRSAKeyPair(keySize);
 console.log("Par de chaves gerado.\n");
 
-const tamanhosDeMensagem = [1000, 10000, 100000, 500000];
+const tamanhosDeMensagem = [1000, 10000, 50000, 100000, 500000, 1000000, 2000000];
 
 console.log("=== Teste RSA: tempo de criptografia x tamanho da mensagem ===");
 console.log("Tamanho da chave:", keySize, "bits");
@@ -85,4 +85,4 @@ tamanhosDeMensagem.forEach((tamanho) => {
 
 console.log("\nResultados em formato de tabela (para copiar):");
 console.log("Tamanho da mensagem;Número de blocos;Tempo (ms)");
-resultados.forEach(r => console.log(`${r.tamanho};${r.blocos};${r.tempo}`));
+resultados.forEach(r => console.log(`${r.tamanho};${r.tempo}`));
