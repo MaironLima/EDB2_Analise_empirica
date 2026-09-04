@@ -1,0 +1,7 @@
+Foi usado IA para adaptar o objetivo dos algoritmos 
+    De:
+        criar um par de chaves: privada e pública, testar uma quantidade de N chaves privadas aleatórias para quebrar a criptografia RSA e AES medindo em quanto tempo N chaves são testadas em cada algoritmo
+    Para:
+        Quanto tempo os algoritmos de RSA e AES levam pra criptografar uma mensagem de tamanho N.
+Além disso, a IA também foi usada para adaptar o código na mostra de resultados. Antes havia um array onde os valores de N e o tempo eram guardados e havia um for para exibí-los. Após alterações, a saída é armazenado num arquivo CVS.
+Como nosso propósito agora é medir o tempo de criptografia em relação ao tamanho da mensagem, foram retiradas do código as funções que geravam chaves aleatórias e a função que tentava descriptografar a mensagem com essas chaves
