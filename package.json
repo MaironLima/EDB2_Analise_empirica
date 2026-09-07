@@ -1,0 +1,24 @@
+{
+  "name": "edb2_analise_empirica",
+  "version": "1.0.0",
+  "description": "Este projeto mede o tempo de criptografia dos algoritmos **AES** e **RSA** conforme o tamanho da mensagem de entrada cresce, e gera um gráfico comparando o crescimento normalizado dos dois.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabiss/EDB2_Analise_empirica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabiss/EDB2_Analise_empirica/issues"
+  },
+  "homepage": "https://github.com/sabiss/EDB2_Analise_empirica#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "node-forge": "^1.4.0"
+  }
+}
