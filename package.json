@@ -20,5 +20,6 @@
   "dependencies": {
     "crypto-js": "^4.2.0",
     "node-forge": "^1.4.0"
-  }
+  },
+  "type": "commonjs"
 }
